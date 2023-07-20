@@ -158,7 +158,10 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 				<div class="col-md-8 w3_agile_mail_left">
 					<div class="agileits_mail_grid_right1 agile_mail_grid_right1">
 						 <form id="contactForm" action="https://formsubmit.co/0788e1368b9f8a50cf21113813e47ee3" method="POST" class="custom-form contact-form" role="form">
-							<div class="form-group">
+							<!---creating a honeypot--->
+							 <input type="text" name="_honey" style="display: none;">
+							 
+							 <div class="form-group">
 								<label for="name">Name</label>
 								<input type="text" class="form-control" id="name" name="Name" placeholder="Enter your name" required>
 							</div>
